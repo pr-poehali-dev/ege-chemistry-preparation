@@ -1,9 +1,9 @@
 
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import ExamStructure from "@/components/ExamStructure";
-import TaskCategories from "@/components/TaskCategories";
-import UsefulResources from "@/components/UsefulResources";
+import TheoryCategories from "@/components/TheoryCategories";
+import StudyGuide from "@/components/StudyGuide";
+import StudyResources from "@/components/StudyResources";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -12,9 +12,9 @@ const Index = () => {
       <Header />
       <main className="flex-grow">
         <Hero />
-        <ExamStructure />
-        <TaskCategories />
-        <UsefulResources />
+        <TheoryCategories />
+        <StudyGuide />
+        <StudyResources />
       </main>
       <Footer />
     </div>
